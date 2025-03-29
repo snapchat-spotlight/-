@@ -1,0 +1,108 @@
+/* تخصيص الألوان والشكل ليكون راقيًا واحترافيًا */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF; /* الخلفية بيضاء للصفحة */
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    direction: rtl; /* لجعل النصوص من اليمين لليسار */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #FFFFFF; /* لون الخلفية الأبيض */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000; /* النصوص باللون الأسود */
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 30px;
+    color: #FFFC00; /* الأصفر ليتناسب مع اللون الأساسي */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #000000; /* اللون الأسود */
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #F5F5F5; /* خلفية الحقول باللون الرمادي الفاتح */
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #FFFC00; /* تلوين الحواف باللون الأصفر عند التركيز */
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFFC00; /* زر التفعيل باللون الأصفر */
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #FFB800; /* تغيير اللون عند المرور */
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFC00; /* اللون الأصفر لرسائل الاستجابة */
+}

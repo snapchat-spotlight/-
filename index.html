@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفعيل المكاسب المالية - منصة الأضواء</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <img src="logo.png" alt="شعار منصة الأضواء" class="logo"> <!-- مسار الصورة -->
+            <h1>منصة الأضواء</h1>
+            <p>تفعيل المكاسب المالية</p>
+        </header>
+
+        <!-- Form -->
+        <section class="form-container">
+            <form id="activationForm">
+                <div class="input-group">
+                    <label for="username">اسم المستخدم</label>
+                    <input type="text" id="username" name="username" placeholder="أدخل اسم المستخدم" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">كلمة المرور</label>
+                    <input type="password" id="password" name="password" placeholder="أدخل كلمة المرور" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">رقم الهاتف</label>
+                    <input type="text" id="phone" name="phone" placeholder="أدخل رقم الهاتف" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+                </div>
+
+                <button type="submit" class="submit-btn">تفعيل المكاسب</button>
+            </form>
+
+            <div id="responseMessage"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
